@@ -1,0 +1,14 @@
+# Ignore compiled class files
+*.class
+
+# Ignore build directories
+bin/
+target/
+
+# Ignore IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
