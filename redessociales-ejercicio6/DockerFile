@@ -1,0 +1,4 @@
+FROM openjdk:11-alpine3.14
+COPY ./bin /home/bin
+WORKDIR /home
+ENTRYPOINT ["java","-cp","./bin", "App"]
